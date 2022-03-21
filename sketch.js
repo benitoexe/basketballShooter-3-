@@ -130,6 +130,7 @@ function reset(){
   basketball.visible=true;
   obstacle.visible=true;
   hoop.visible=true;
+  backgroundSound.setVolume(0.1);
   console.log("restart");
   score=0;
   hits=0;
