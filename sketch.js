@@ -114,6 +114,7 @@ else if(gamestate=="end"){
   textSize(30)
   fill("yellow")
   text("GAME OVER: YOU LOST!",200,300);
+  backgroundSound.setVolume(0);
   basketball.visible=false;
   obstacle.visible=false;
 //  hoop.visible=false;
